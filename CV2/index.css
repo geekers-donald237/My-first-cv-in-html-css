@@ -1,0 +1,232 @@
+/* reinstallion des para*/
+
+* {
+    padding: 0 px;
+    margin: 0 px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+#blocpage {
+    width: 100vw;
+    height: 100vh;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2px;
+}
+
+h1 {
+    font-size: 1.8rem;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+br {
+    color: rgb(224, 240, 253);
+}
+
+.principale {
+    margin: auto;
+    width: 70%;
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+    list-style-position: inside;
+}
+
+.section1 {
+    width: 40%;
+    border: 1px solid snow;
+    display: grid;
+    box-shadow: 3px 3px 3px rgb(185, 184, 184);
+    grid-template-columns: 1fr;
+    background-color: white;
+}
+
+.photo {
+    background-image: url(moi.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 150%;
+}
+
+.section2 {
+    width: 60%;
+    margin-left: 1%;
+}
+
+.section2>* {
+    border: 1px solid snow;
+    background-color: white;
+    box-shadow: 3px 3px 10px rgb(185, 184, 184);
+    padding: 5%;
+    line-height: 150%;
+}
+
+.addresse ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5em;
+    padding: 16% 0 0 5%;
+}
+
+.skills {
+    padding: 5% 0 0 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.skills .progress {
+    width: 80%;
+    height: 20px;
+    background-color: rgb(224, 240, 253);
+    border-radius: 20px;
+    color: white;
+}
+
+.progress .progress_bar65 {
+    width: 65%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress .progress_bar75 {
+    width: 75%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress .progress_bar85 {
+    width: 85%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress .progress_bar95 {
+    width: 95%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.lang {
+    padding: 5% 0 0 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.lang .progress {
+    width: 80%;
+    height: 25px;
+    background-color: rgb(224, 240, 253);
+    border-radius: 20px;
+}
+
+.progress .progress_bar1 {
+    width: 95%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress .progress_bar2 {
+    width: 75%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.progress .progress_bar3 {
+    width: 35%;
+    background-color: green;
+    border-radius: 20px;
+    height: 100%;
+    text-align: center;
+}
+
+.section2 .haut {
+    margin-left: 15px;
+    margin-bottom: 5px;
+}
+
+.section2 .bas {
+    margin-left: 15px;
+    margin-bottom: -15px;
+}
+
+footer {
+    background-color: burlywood;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    /* margin: 15px auto 0px auto; */
+}
+
+footer h1 {
+    padding-top: 15px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 28px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-watsap {
+    background: green;
+    color: white;
+}
+
+.lien {
+    text-decoration: underline;
+    font-family: 'dayrom', Arial, Serif;
+    color: grey;
+}
+
+a:hover {
+    color: black;
+}
